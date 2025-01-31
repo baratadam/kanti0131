@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav button {
+    background-color: #ff7f50; /* Narancssárga */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav button:hover {
+    background-color: #e06640; /* Sötétebb narancs */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #bbb;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #d3d3d3; /* Világos szürke */
+}
+
+button {
+    background-color: #555; /* Sötétszürke */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #333; /* Még sötétebb szürke */
+}
+
+button.delete {
+    background-color: #ff4d4d; /* Pirosas */
+}
+
+button.delete:hover {
+    background-color: #cc0000; /* Sötétebb piros */
+}
+
+#courseForm, #studentForm {
+    margin-top: 20px;
+}
+
+#courseForm input, #studentForm input, #studentForm select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#courseForm button, #studentForm button {
+    padding: 10px 20px;
+}
